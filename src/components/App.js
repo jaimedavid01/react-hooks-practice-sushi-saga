@@ -3,6 +3,8 @@ import SushiContainer from "./SushiContainer";
 import Table from "./Table";
 import Intro from './Intro';
 import {Route, Switch, BrowserRouter as Router} from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./Intro.css";
 
 const API = "http://localhost:3001/sushis";
 
@@ -55,6 +57,14 @@ function App() {
 <div className="App">
   <Switch>
   <Route path="/app">
+  <Link to="/">  
+  <div className="btn"><p className="p">X</p></div>
+  </Link>
+      
+  <Link to="/">  
+    <div className="btn2"><p className="p">X</p></div>
+  </Link>
+
   <SushiContainer sushis={sushis} onEatSushi={handleEatSushi} />
   <Table plates={eatenSushis} money={money} onAddMoney={handleAddMoney} />
   </Route>

@@ -8,7 +8,7 @@ function Intro() {
         <div className="intro">
             <Link to="/app">  
             <div className="btn">
-                <p>X</p>
+                <p className="p">X</p>
             </div>
             </Link>
             <div className="intro__left">
@@ -53,7 +53,7 @@ function Intro() {
                 <Link to="/app">
                 <button className="introbutton">View Final Product</button>
                 </Link>
-                <a href="https://github.com/jaimedavid01/react-hooks-practice-pokemon-searcher">
+                <a href="https://github.com/jaimedavid01/react-hooks-practice-sushi-saga">
                 <button className="introbutton">View Code</button>
                 </a>
                 
