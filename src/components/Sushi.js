@@ -1,20 +1,19 @@
 import React from "react";
 
-function Sushi(props) {
+function Sushi({ sushi, onEatSushi }) {
+  // local state! will go away if the component goes away
+  // const [eaten, setEaten] = useState(false)
+
+  const { id, name, img_url, price, eaten } = sushi;
+
   return (
     <div className="sushi">
-      <div className="plate" onClick={/* Give me a callback! */ null}>
+      <div className="plate" onClick={() => onEatSushi(id, price)}>
         {/* Tell me if this sushi has been eaten! */}
-        {false ? null : (
-          <img
-            src={/* Give me an image source! */ null}
-            alt={/* Give me a name! */ "Sushi"}
-            width="100%"
-          />
-        )}
+        {eaten ? null : <img src={img_url} alt={name} width="100%" />}
       </div>
       <h4 className="sushi-details">
-        {/* Give me a name! */} - ${/* Give me a price! */}
+        {name} - ${price}
       </h4>
     </div>
   );
