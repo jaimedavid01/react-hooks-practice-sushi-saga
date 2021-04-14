@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-hooks-practice-sushi-saga/static/css/main.32ac8b74.chunk.css",
+    "main.js": "/react-hooks-practice-sushi-saga/static/js/main.da234773.chunk.js",
+    "main.js.map": "/react-hooks-practice-sushi-saga/static/js/main.da234773.chunk.js.map",
+    "runtime-main.js": "/react-hooks-practice-sushi-saga/static/js/runtime-main.51216741.js",
+    "runtime-main.js.map": "/react-hooks-practice-sushi-saga/static/js/runtime-main.51216741.js.map",
+    "static/js/2.47797763.chunk.js": "/react-hooks-practice-sushi-saga/static/js/2.47797763.chunk.js",
+    "static/js/2.47797763.chunk.js.map": "/react-hooks-practice-sushi-saga/static/js/2.47797763.chunk.js.map",
+    "index.html": "/react-hooks-practice-sushi-saga/index.html",
+    "static/css/main.32ac8b74.chunk.css.map": "/react-hooks-practice-sushi-saga/static/css/main.32ac8b74.chunk.css.map",
+    "static/js/2.47797763.chunk.js.LICENSE.txt": "/react-hooks-practice-sushi-saga/static/js/2.47797763.chunk.js.LICENSE.txt",
+    "static/media/sushi-saga-demo.8eeec486.gif": "/react-hooks-practice-sushi-saga/static/media/sushi-saga-demo.8eeec486.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51216741.js",
+    "static/js/2.47797763.chunk.js",
+    "static/css/main.32ac8b74.chunk.css",
+    "static/js/main.da234773.chunk.js"
+  ]
+}
