@@ -6,7 +6,7 @@ import {Route, Switch, BrowserRouter as Router} from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./Intro.css";
 
-const API = "http://localhost:3001/sushis";
+const API = "https://sushidb01.herokuapp.com/sushis";
 
 function App() {
   const [sushis, setSushis] = useState([]);
