@@ -57,9 +57,9 @@ function App() {
 <div className="App">
   <Switch>
   <Route path="/app">
-  <Link to="/">  
-  <div className="btn"><p className="p">X</p></div>
-  </Link>
+  <a href="https://jaimeportfolio.herokuapp.com/">
+        <div className="btn"><p className="p">X</p></div>
+     </a>
       
   <Link to="/">  
     <div className="btn2"><p className="p">X</p></div>

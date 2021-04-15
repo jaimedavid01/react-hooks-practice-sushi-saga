@@ -6,11 +6,9 @@ import { Link } from "react-router-dom";
 function Intro() {
     return (
         <div className="intro">
-            <Link to="/app">  
-            <div className="btn">
-                <p className="p">X</p>
-            </div>
-            </Link>
+     <a href="https://jaimeportfolio.herokuapp.com/">
+        <div className="btn"><p className="p">X</p></div>
+     </a>
             <div className="intro__left">
                 <img className="gif" src={GIF} alt="" />
                 <h1 className="h1title demo">DEMO</h1>

@@ -10,6 +10,7 @@ function Table({ plates = [], money, onAddMoney }) {
   return (
     <>
       <h1 className="remaining">You have: ${money} remaining!</h1>
+      <p>* Data may take a few seconds to fetch *</p>
       <div className="table">
         <div className="stack">{emptyPlates}</div>
       </div>
